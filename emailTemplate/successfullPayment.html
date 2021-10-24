@@ -1,0 +1,58 @@
+<html>
+    <head></head>
+    <body>
+        <table style="width:632px" cellpadding="0" cellspacing="0" border="0" align="center">
+        <tbody><tr>
+            <td style="height:10px">
+            </td>
+        </tr>
+        <tr style="font-family:Tahoma,Geneva,sans-serif;color:#383838;font-size:14px">
+            <td align="center">
+                <table style="width:100%;border:1px solid #d9d9d9" cellpadding="0" cellspacing="0" border="0">
+                    <tbody><tr>
+                        <td style="border-bottom:1px solid #d9d9d9;padding-left:10px;height:60px;background-color:#26344b;color:white;vertical-align: middle;" align="left">
+                            <img style="float: left;padding-right: 25px;" width="100" height="100" src="{{company_logo}}"><p style="padding-left:15px;padding-top: 25px;">{{company_name}}</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:33px;font-family:'Segoe UI',Tahoma,Geneva,Verdana;font-size:14px;color:#333" align="left">
+                            <span>Hello {{customer_name}},</span>
+                            <br>
+                            <br>
+                            <p>
+                                Thank you so much for placing an order with {{company_name}}.<br/><br/>Now that you have made the first payment, you just need to download the software to install on your local computer.<br/>The software runs a backup every day.
+                                <br>
+                                <br>
+                                -------
+                                <br>
+                                Your login email is: <a href="mailto:{{customer_email}}" target="_blank">{{customer_email}}</a>
+                                <br>
+                                Your login password is: {{customer_password}}
+                                <br>
+                                -------
+                                <br>
+                                <br>
+                                The technology used in this solution has been created by Zoolz/BigMind.
+                                <br/>
+                                For any help or support issues, please contact <a href="mailto:{{company_reply_email}}?Subject=Support%20request:%20order%20number%20{{zoolz_order_po_number}}&body=Hello,%0d%0a%0d%0aProductName:%20%20{{purchased_product_name}}%0d%0aPurchased Date:%20%20{{purchased_plan_date}}%0d%0aName:%20%20{{customer_name}}%0d%0aEmail:%20%20{{customer_email}}%0d%0aCompany%20Name:%20%20{{customer_company_name}}" target="_top">{{company_reply_email}}</a>.
+                                <br/>
+                                <br/>
+
+                                                                
+                                <span>Best Regards,</span>
+                                <br>
+                                {{signature_company_name}}
+                                <br><br>
+                                <img src="{{signature_company_logo}}">
+                                <br/>
+                                <br/>
+                                {{signature_company_manager_name}}
+                            </p>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+    </body>
+</html>
